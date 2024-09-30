@@ -5,6 +5,7 @@ USD to ???
 1. UZS
 2. RUB
 3. TRY
+4. EUR
 \nSelect: """))
 
 match money:
@@ -14,6 +15,8 @@ match money:
         money = "RUB"
     case 3:
         money = "TRY"
+    case 4:
+        money = "EUR"
 
 
 value = int(input("\nValue: "))
