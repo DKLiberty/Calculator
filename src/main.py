@@ -69,7 +69,7 @@ root.attributes('-fullscreen', True)
 # Установить иконку на калькулятор
 root.iconbitmap("./src/calculator.ico")  # Путь к файлу с иконкой
 
-# Цвета
+# Паттерн
 PRIMARY_COLOR = "#2A9D8F"
 ACCENT_COLOR = "#155049"
 TEXT_COLOR = "#264653"
