@@ -66,9 +66,6 @@ root.configure(bg="#ffffff")  # Белый фон
 # Установить окно в полноэкранный режим
 root.attributes('-fullscreen', True)
 
-# Установить иконку на калькулятор
-root.iconbitmap("./src/calculator.ico")  # Путь к файлу с иконкой
-
 # Паттерн
 PRIMARY_COLOR = "#2A9D8F"
 ACCENT_COLOR = "#155049"
